@@ -15,7 +15,7 @@ of HeqetApp.
 
 First, make sure you have `stack`: <http://docs.haskellstack.org/en/stable/README/>
 
-Make a directory containing `stack.yaml`. Clone in the three repositories.
+Make a directory containing the `stack.yaml` file from here. Clone in the three repositories.
 
     mkdir heqet-app-build
     cd heqet-app-build
@@ -41,5 +41,3 @@ A quirk that I haven't fixed yet is that you must be in the `build` directory to
 
     cd build
     ./heqet
-
-Now visit `localhost:8023` as typical.
