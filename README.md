@@ -28,7 +28,7 @@ Now build it. This will take a few minutes.
     
     stack build
     
-Now put the executable and the needed static files together. You can put them anywhere, but lets put them in a directory here.
+Now put the executable and the static files together. You can put them anywhere, but let's put them in a directory here called `build`.
 
     mkdir build
     cp -r heqet-app/static/ build/static
@@ -37,7 +37,7 @@ The exact path to the executable will depend on your machine.
 
     cp heqet-app/.stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/heqet/heqet ./build/heqet
     
-A quirk that I haven't fixed yet is that you must be in the `build` directory to run the `heqet` executable and have it find the static files.
+A bug is that you must be in the `build` directory to run the `heqet` executable and have it find the static files.
 
     cd build
     ./heqet
