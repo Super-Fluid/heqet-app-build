@@ -2,12 +2,14 @@
 Builds of heqet-app and instructions for building it yourself. 
 Don't clone; just download the files you want.
 
-## Mac
+## Ready to go
+### Mac
 todo
-## Linux
+### Linux
 todo
-## Windows
+### Windows
 todo
+
 ## DIY
 At the moment, neither Heqet nor HistoryGraph are on
 hackage. So, you'll need to get their source as well as the source
