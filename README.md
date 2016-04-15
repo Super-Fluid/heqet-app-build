@@ -17,7 +17,7 @@ of HeqetApp.
 
 First, make sure you have `stack`: <http://docs.haskellstack.org/en/stable/README/>
 
-Make a directory containing the `stack.yaml` file found here. Clone in the three repositories of code: `heqet`, `heqet-app`, and `history-graph`.
+Make a directory containing the `stack.yaml` file from this repository ([direct link](https://raw.githubusercontent.com/Super-Fluid/heqet-app-build/master/stack.yaml)). Clone in the three repositories of code: `heqet`, `heqet-app`, and `history-graph`.
 
     mkdir heqet-app-build
     cd heqet-app-build
